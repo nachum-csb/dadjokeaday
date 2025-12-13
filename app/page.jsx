@@ -148,6 +148,7 @@ const SmileCounter = ({ count, justIncremented }) => {
   );
 };
 
+
 // =============================================================================
 // ONE YEAR OF DAD JOKES - CLEANED & UPDATED
 // June 8, 2025 - December 7, 2026 (Half past, half future)
@@ -316,7 +317,7 @@ const jokesDatabase = [
   { id: 148, date: '2025-11-02', setup: "Why did the basketball player bring a ladder?", punchline: "He wanted to shoot for the stars!", category: "Sports" },
   { id: 149, date: '2025-11-03', setup: "Why did the raisin go out with the prune?", punchline: "Because he couldn't find a date!", category: "Food" },
   { id: 150, date: '2025-11-04', setup: "What do you call a camel with no humps?", punchline: "Humphrey!", category: "Animals" },
-  { id: 151, date: '2025-11-05', setup: "Why did the lemon stop in the middle of the road?", punchline: "It ran out of juice!", category: "Food" },
+  { id: 151, date: '2025-11-05', setup: "Why did the lemon stop in the middle of the road?", punchline: "It wanted to be a lemon-aid station!", category: "Food" },
   { id: 152, date: '2025-11-06', setup: "What do you call a magician without magic?", punchline: "Ian!", category: "Classic" },
   { id: 153, date: '2025-11-07', setup: "Why did the cat sit on the computer?", punchline: "To keep an eye on the mouse!", category: "Animals" },
   { id: 154, date: '2025-11-08', setup: "What do you call a lazy doctor?", punchline: "Dr. Do-little!", category: "Work" },
@@ -331,7 +332,7 @@ const jokesDatabase = [
   { id: 163, date: '2025-11-17', setup: "Why did the bowling pins stop talking?", punchline: "They were on strike!", category: "Sports" },
   { id: 164, date: '2025-11-18', setup: "What do you call a blind dinosaur?", punchline: "A do-you-think-he-saurus!", category: "Animals" },
   { id: 165, date: '2025-11-19', setup: "Why did the computer keep sneezing?", punchline: "It had a virus!", category: "Tech" },
-  { id: 166, date: '2025-11-20', setup: "What do you call a baby whale?", punchline: "A little whaley cute one!", category: "Animals" },
+  { id: 166, date: '2025-11-20', setup: "What do whales eat for dinner?", punchline: "Fish and ships!", category: "Animals" },
   { id: 167, date: '2025-11-21', setup: "Why did the book go to the hospital?", punchline: "It had a broken spine!", category: "Classic" },
   { id: 168, date: '2025-11-22', setup: "Why did the rocket lose its job?", punchline: "It got fired!", category: "Science" },
   { id: 169, date: '2025-11-23', setup: "What do you call a zombie who cooks stir fry?", punchline: "Dead man wok-ing!", category: "Food" },
@@ -348,12 +349,12 @@ const jokesDatabase = [
   { id: 178, date: '2025-12-02', setup: "Why did the ocean blush?", punchline: "Because people kept waving at it!", category: "Nature" },
   { id: 179, date: '2025-12-03', setup: "What do you call a cow that plays guitar?", punchline: "A moo-sician!", category: "Animals" },
   { id: 180, date: '2025-12-04', setup: "Why did the sun take a day off?", punchline: "It was feeling a little burnt out!", category: "Nature" },
-  { id: 181, date: '2025-12-05', setup: "What do you call a monkey in a minefield?", punchline: "A ba-boom!", category: "Animals" },
-  { id: 182, date: '2025-12-06', setup: "Why did the firecracker go to school?", punchline: "To get a little brighter!", category: "Holiday" },
+  { id: 181, date: '2025-12-05', setup: "What do you call a snowman party?", punchline: "A snowball!", category: "Nature" },
+  { id: 182, date: '2025-12-06', setup: "Why did the firecracker go to school?", punchline: "To learn how to sparkle!", category: "Holiday" },
   { id: 183, date: '2025-12-07', setup: "What do you call a patriotic dessert?", punchline: "Apple pie-triot!", category: "Holiday" },
   { id: 184, date: '2025-12-08', setup: "Why did the hot dog win the race?", punchline: "It was the weiner!", category: "Food" },
   { id: 185, date: '2025-12-09', setup: "What do you call a deer that costs a dollar?", punchline: "A buck!", category: "Animals" },
-  { id: 186, date: '2025-12-10', setup: "Why did the beach blush?", punchline: "Because the tide came in!", category: "Nature" },
+  { id: 186, date: '2025-12-10', setup: "Why don't beaches ever win races?", punchline: "They always get tide!", category: "Nature" },
   { id: 187, date: '2025-12-11', setup: "What do you call a crab that plays baseball?", punchline: "A pinch hitter!", category: "Sports" },
   { id: 188, date: '2025-12-12', setup: "Why did the sunscreen go to school?", punchline: "To prevent burning out!", category: "Nature" },
   { id: 189, date: '2025-12-13', setup: "What do you call a fish on a plane?", punchline: "A flying fish!", category: "Animals" },
@@ -385,10 +386,10 @@ const jokesDatabase = [
   { id: 213, date: '2026-01-06', setup: "What do you call a camper without a tent?", punchline: "In-tents-ly unprepared!", category: "Nature" },
   { id: 214, date: '2026-01-07', setup: "Why did the mosquito go to school?", punchline: "To improve its bite!", category: "Animals" },
   { id: 215, date: '2026-01-08', setup: "What do you call a lazy summer day?", punchline: "A sun-day!", category: "Nature" },
-  { id: 216, date: '2026-01-09', setup: "Why did the farmer win an award?", punchline: "He was outstanding in his field!", category: "Work" },
+  { id: 216, date: '2026-01-09', setup: "Why did the farmer get an award?", punchline: "For being a-moo-zing!", category: "Work" },
   { id: 217, date: '2026-01-10', setup: "What do you call a caterpillar in winter?", punchline: "A brrr-pillar!", category: "Animals" },
   { id: 218, date: '2026-01-11', setup: "Why did the teacher wear sunglasses?", punchline: "Her students were too bright!", category: "Classic" },
-  { id: 219, date: '2026-01-12', setup: "What do you call a firefly with no light?", punchline: "A regular fly having an identity crisis!", category: "Animals" },
+  { id: 219, date: '2026-01-12', setup: "What do you call a firefly that lost its glow?", punchline: "De-lighted!", category: "Animals" },
   { id: 220, date: '2026-01-13', setup: "Why did the book join the gym?", punchline: "To work on its paperback!", category: "Classic" },
   { id: 221, date: '2026-01-14', setup: "What do you call a snake that bakes?", punchline: "A pie-thon!", category: "Animals" },
   { id: 222, date: '2026-01-15', setup: "Why did the computer take a summer vacation?", punchline: "It needed to cool its processor!", category: "Tech" },
@@ -400,7 +401,7 @@ const jokesDatabase = [
   { id: 228, date: '2026-01-21', setup: "Why did the pencil take a vacation?", punchline: "To get to the point!", category: "Classic" },
   { id: 229, date: '2026-01-22', setup: "What do you call a giraffe at the beach?", punchline: "A high tide!", category: "Animals" },
   { id: 230, date: '2026-01-23', setup: "Why did the cloud break up with the fog?", punchline: "The relationship was too misty!", category: "Nature" },
-  { id: 231, date: '2026-01-24', setup: "What do you call a kangaroo at the beach?", punchline: "Sandy pouch!", category: "Animals" },
+  { id: 231, date: '2026-01-24', setup: "What do you call a bear with no ears?", punchline: "B!", category: "Animals" },
   { id: 232, date: '2026-01-25', setup: "Why did the notebook go to the beach?", punchline: "To get lined!", category: "Classic" },
   { id: 233, date: '2026-01-26', setup: "What do you call a tired pea?", punchline: "Sleep-y!", category: "Food" },
   { id: 234, date: '2026-01-27', setup: "Why did the crayon feel sad?", punchline: "It was feeling blue!", category: "Classic" },
@@ -449,7 +450,7 @@ const jokesDatabase = [
   { id: 273, date: '2026-03-07', setup: "What do you call a witch at the beach?", punchline: "A sand-witch!", category: "Holiday" },
   { id: 274, date: '2026-03-08', setup: "Why did the mummy have no friends?", punchline: "He was too wrapped up in himself!", category: "Holiday" },
   { id: 275, date: '2026-03-09', setup: "What do you call a ghost's favorite dessert?", punchline: "Boo-berry pie!", category: "Holiday" },
-  { id: 276, date: '2026-03-10', setup: "Why did the skeleton stay home?", punchline: "He had no body to go with!", category: "Holiday" },
+  { id: 276, date: '2026-03-10', setup: "What do you call a skeleton who tells lies?", punchline: "A bony phony!", category: "Holiday" },
   { id: 277, date: '2026-03-11', setup: "What do you call a werewolf YouTuber?", punchline: "A lycan-subscribe!", category: "Holiday" },
   { id: 278, date: '2026-03-12', setup: "Why did the ghost go to the bar?", punchline: "For the boos!", category: "Holiday" },
   { id: 279, date: '2026-03-13', setup: "What do you call a vampire that's always hungry?", punchline: "Count Snackula!", category: "Holiday" },
@@ -506,7 +507,7 @@ const jokesDatabase = [
 
   // MAY 2026
   { id: 328, date: '2026-05-01', setup: "Why did the Christmas tree go to the barber?", punchline: "It needed to be trimmed!", category: "Holiday" },
-  { id: 329, date: '2026-05-02', setup: "What do you call a grumpy reindeer?", punchline: "Rude-olph!", category: "Holiday" },
+  { id: 329, date: '2026-05-02', setup: "What do reindeer say before telling a joke?", punchline: "This one's gonna sleigh you!", category: "Holiday" },
   { id: 330, date: '2026-05-03', setup: "Why did the ornament feel hung up?", punchline: "It couldn't get off the tree!", category: "Holiday" },
   { id: 331, date: '2026-05-04', setup: "What do you call a cat on Christmas Eve?", punchline: "Sandy Claws!", category: "Holiday" },
   { id: 332, date: '2026-05-05', setup: "Why did the gingerbread man go to the doctor?", punchline: "He was feeling crummy!", category: "Holiday" },
@@ -521,7 +522,7 @@ const jokesDatabase = [
   { id: 341, date: '2026-05-14', setup: "What do you call a super hero who's bad at their job?", punchline: "Soup-er hero — they always spill!", category: "Movies" },
   { id: 342, date: '2026-05-15', setup: "What do you call a broke Santa?", punchline: "Saint Nickel-less!", category: "Holiday" },
   { id: 343, date: '2026-05-16', setup: "What do you call a leprechaun's vacation home?", punchline: "A lepre-condo!", category: "Holiday" },
-  { id: 344, date: '2026-05-17', setup: "What do you call a cat on the beach on Christmas?", punchline: "Sandy Claws!", category: "Animals" },
+  { id: 344, date: '2026-05-17', setup: "What do you call a dancing skeleton?", punchline: "A bone shaker!", category: "Animals" },
   { id: 345, date: '2026-05-18', setup: "What do you call a tax accountant's favorite dance?", punchline: "The tax-i!", category: "Work" },
   { id: 346, date: '2026-05-19', setup: "Why did the gym teacher break up with the math teacher?", punchline: "She had too many problems!", category: "Work" },
   { id: 347, date: '2026-05-20', setup: "What do you call a French insect?", punchline: "A Paris-ite!", category: "Animals" },
@@ -535,12 +536,14 @@ const jokesDatabase = [
   { id: 355, date: '2026-05-28', setup: "Why did the flag go to therapy?", punchline: "It had too many issues to wave around!", category: "Holiday" },
   { id: 356, date: '2026-05-29', setup: "What did one firecracker say to the other?", punchline: "My pop is bigger than yours!", category: "Holiday" },
   { id: 357, date: '2026-05-30', setup: "Why did the beekeeper's wife leave him?", punchline: "He kept calling her honey!", category: "Food" },
-  { id: 358, date: '2026-05-31', setup: "What do you call a Mexican who lost his car?", punchline: "Carlos!", category: "Classic" },
+  { id: 358, date: '2026-05-31', setup: "What do you call a bear with no socks?", punchline: "Bearfoot!", category: "Classic" },
 
   // JUNE 2026 - DECEMBER 2026 (Continuing with remaining unique jokes)
   { id: 359, date: '2026-06-01', setup: "What do you call a fish without a tail?", punchline: "A one-ended fish stick!", category: "Animals" },
   { id: 360, date: '2026-06-02', setup: "Why did the baker stop making donuts?", punchline: "He got tired of the hole thing!", category: "Food" },
 ];
+
+
 
 
 // =============================================================================
